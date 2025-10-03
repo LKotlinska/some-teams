@@ -8,6 +8,11 @@
 <body>
     <header>
         <nav>
-            
+            <ul>
+                <li>
+                    <a href="#">Main</a>
+                    <a href="#">About</a>
+                </li>
+            </ul>
         </nav>
-    </header>
+</header>
