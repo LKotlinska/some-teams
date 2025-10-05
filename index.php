@@ -7,12 +7,12 @@ require(__DIR__ . "/resources/data.php");
     foreach ($teams as $teamName => $dataName) {
     ?>
         <table>
+            <caption>
+                <?php echo $teamName; ?>
+            </caption>
             <tbody>
-                <caption>
-                    <?php echo $teamName; ?>
-                </caption>
                 <tr colspan="2">
-                    <td>
+                    <td colspan="2">
                         <img src="<?php echo $dataName['logo']; ?>" />
                     </td>
                 </tr>
@@ -48,15 +48,15 @@ require(__DIR__ . "/resources/data.php");
                         <?php
                         foreach ($dataName['opponents'] as $opponentValue) {
                         ?>
-                            <?php echo "<br>" . $opponentValue; ?>
+                            <?php echo $opponentValue; ?> <br>
                         <?php
                         };
                         ?>
                     </td>
                 </tr>
-                <tr colspan="2">
-                    <td>
-                        <button href="<?php echo $dataName['url']; ?>">Read more...</button>
+                <tr>
+                    <td colspan="2" class="button-container">
+                        <a href="<?php echo $dataName['url']; ?>" class="button">Read more...</a>
                     </td>
                 </tr>
             </tbody>
