@@ -3,6 +3,7 @@ require(__DIR__ . "/header.php");
 require(__DIR__ . "/resources/data.php");
 ?>
 <main>
+    <div class="main-container">
     <?php
     foreach ($teams as $teamName => $dataName) {
     ?>
@@ -64,6 +65,7 @@ require(__DIR__ . "/resources/data.php");
     <?php
     };
     ?>
+    </div>
 </main>
 <?php
 require(__DIR__ . "/footer.php");
