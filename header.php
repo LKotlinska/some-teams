@@ -8,24 +8,20 @@
     <link rel="icon" type="image/png" href="/images/logo.png">
     <title>Document</title>
     <!-- Links to google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="header">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Main</a>
-                        <a href="#">About</a>
-                    </li>
-                </ul>
+            <nav class="nav">
+                <a href="#">Main</a>
+                <a href="#">About</a>
             </nav>
             <h1>
-                Kick Off with Your Favorite Teams
+                Kick Off with Your Favorite <span>Teams</span>
             </h1>
         </div>
     </header>

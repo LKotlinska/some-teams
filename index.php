@@ -13,7 +13,7 @@ require(__DIR__ . "/resources/data.php");
             <tbody>
                 <tr colspan="2">
                     <td colspan="2">
-                        <img src="<?php echo $dataName['logo']; ?>" />
+                        <img class="team-logo" src="<?php echo $dataName['logo']; ?>" />
                     </td>
                 </tr>
                 <tr>
