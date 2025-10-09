@@ -2,8 +2,6 @@
   --primary-color: #221d23;
   --secondary-color: #FBFBFF;
   --accent-color: #01BAEF;
-
-
 }
 * {
   box-sizing: border-box;
@@ -15,16 +13,17 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
 }
-table,
-caption {
-  border: 1px solid black;
-}
-table {
+.card {
+  display:flex; 
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
   background-color: var(--secondary-color);
   border-top: none;
   margin: 10px;
   padding: 20px;
-  width: 400px;
+  width: 380px;
+  border-radius: 30px;
 }
 .nav {
   padding: 5px;
@@ -35,14 +34,14 @@ table {
   height: 100%;
   background-color: var(--secondary-color);
 }
-.nav a{
+a{
   padding: 10px 20px;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.2em;
   color: var(--primary-color);
 }
-.nav a:hover{
+a:hover{
   background-color: var(--accent-color);
   color: var(--secondary-color)
 }
@@ -52,9 +51,12 @@ h1{
   text-align: center;
   color: var(--secondary-color);
   font-size: 10em;
-  font-family: "BBH Sans Bogle", sans-serif;
+}
+h1, 
+h3{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight:900;
   font-style: normal;
-  font-weight: 100;
 }
 span{
   color: var(--accent-color);
@@ -64,40 +66,27 @@ span{
   flex-wrap: wrap;
   justify-content: center;
 }
-caption {
-  border-bottom: none;
-  padding: 10px;
-  font-size: 1.2em;
-  font-weight: bold;
+h3 {
+  margin: 0 auto;
+  font-size: 2em;
   text-transform: uppercase;
-  font-family: "BBH Sans Bogle", sans-serif;
-  font-weight: 100;
 }
 .team-logo {
-  width: 50%;
+  height: 150px;
   display: block;
   margin: 0 auto 15px auto;
 }
 
+table{
+  width: 90%;
+}
 th,
 td {
   vertical-align: top;
 }
-
 th {
+  width: 30%;
+  padding-right: 15px;
   text-align: left;
 }
 
-.button {
-  background-color: rgb(239, 239, 239);
-  border: 1px solid rgb(0, 0, 0);
-  text-align: center;
-  padding: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-.button-container {
-  height: fit-content;
-  text-align: right;
-  height: 2em;
-}
