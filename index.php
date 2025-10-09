@@ -3,15 +3,18 @@ require(__DIR__ . "/header.php");
 require(__DIR__ . "/resources/data.php");
 ?>
 <main>
+    <h1>
+        Kick Off with Your Favorite <span>Teams</span>
+    </h1>
     <div class="main-container">
         <?php
         foreach ($teams as $teamName => $dataName) {
-        // Removes paranthesis
-        $cleanLeagueName = preg_replace("/\s*\(.*?\)/", "", $dataName['league']); 
-        // Removes slash
-        $cleanLeagueName = str_replace("\\", "", $cleanLeagueName);    
-        // Capitalizes words
-        $cleanLeagueName = ucwords(strtolower(trim($cleanLeagueName)));  
+            // Removes paranthesis
+            $cleanLeagueName = preg_replace("/\s*\(.*?\)/", "", $dataName['league']);
+            // Removes slash
+            $cleanLeagueName = str_replace("\\", "", $cleanLeagueName);
+            // Capitalizes words
+            $cleanLeagueName = ucwords(strtolower(trim($cleanLeagueName)));
         ?>
             <div class="card">
                 <h3>

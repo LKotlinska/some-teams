@@ -17,11 +17,8 @@
     <header>
         <div class="header">
             <nav class="nav">
-                <a href="#">Main</a>
-                <a href="#">About</a>
+                <a href="/index.php">Main</a>
+                <a href="/about.php">About</a>
             </nav>
-            <h1>
-                Kick Off with Your Favorite <span>Teams</span>
-            </h1>
         </div>
     </header>
