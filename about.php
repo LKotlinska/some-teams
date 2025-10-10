@@ -25,6 +25,22 @@ require(__DIR__ . "/resources/authors.php");
             <h3>
                 Skills
             </h3>
+            <div class="icon-container">
+                <?php
+                foreach ($authors as $author => $data) {
+                    foreach ($data['programmingLanguage'] as $skill => $iconUrl) {
+                ?>
+                        <div class="hobby-icon">
+                            <img src="<?php echo $iconUrl ?>">
+                            <div class="hover-text">
+                                <p> <?php echo $skill ?></p>
+                            </div>
+                        </div>
+                <?php
+                    }
+                }
+                ?>
+            </div>
         </div>
         <div class="about-card">
             <h3>
@@ -33,14 +49,14 @@ require(__DIR__ . "/resources/authors.php");
             <div class="icon-container">
                 <?php
                 foreach ($authors as $author => $data) {
-                    foreach($data['hobby'] as $hobby => $iconUrl){
+                    foreach ($data['hobby'] as $hobby => $iconUrl) {
                 ?>
-                    <div class="hobby-icon">
-                        <img src="<?php echo $iconUrl ?>">
-                        <div class="hover-text">
-                        <p> <?php echo $hobby ?></p>
+                        <div class="hobby-icon">
+                            <img src="<?php echo $iconUrl ?>">
+                            <div class="hover-text">
+                                <p> <?php echo $hobby ?></p>
+                            </div>
                         </div>
-                    </div>
                 <?php
                     }
                 }

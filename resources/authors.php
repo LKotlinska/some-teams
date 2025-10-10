@@ -23,7 +23,7 @@ $authors = [
             'html'=> '/images/icon_html.svg',
             'css' => '/images/icon_css.svg',
             'c#'=> '/images/icon_csharp.svg',
-            'sql'=> '/images/icon_sql',
+            'sql'=> '/images/icon_sql.svg',
         ]
     ]
 ];
