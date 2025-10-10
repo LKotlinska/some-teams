@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="/images/logo.png">
-    <title>Document</title>
+    <title>Your Favorite Teams!</title>
+    <meta name="description" content="Explore information about football teams, including their leagues, rankings, cities, and official links.">
+    <meta name="keywords" content="Web Development, Frontend, HTML, CSS, PHP">
+    <meta name="author" content="Laura Kotlinska">
     <!-- Links to google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
