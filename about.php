@@ -37,6 +37,9 @@ require(__DIR__ . "/resources/authors.php");
                 ?>
                     <div class="hobby-icon">
                         <img src="<?php echo $iconUrl ?>">
+                        <div class="hover-text">
+                        <p> <?php echo $hobby ?></p>
+                        </div>
                     </div>
                 <?php
                     }
