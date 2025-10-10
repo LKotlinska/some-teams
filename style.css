@@ -105,6 +105,7 @@ span{
 }
 
 .hobby-icon{
+  position: relative;
   padding: 0.5em;
   margin: 0.5em 2em;
   background-color: var(--primary-color-light); 
@@ -113,6 +114,23 @@ span{
 .hobby-icon img{
   display: block;
   margin: 0 auto;
+}
+.hover-text{
+  display: none;
+  position: absolute;
+  padding: 1em;
+  background-color: var(--accent-color);
+  top: -4em;
+  left: -50%;
+  border-radius: 2em;
+}
+.hover-text p{
+  width: max-content;
+  text-transform: uppercase;
+  font-size: 1.2em
+}
+.hobby-icon:hover .hover-text{
+  display: block;
 }
 
 table{
