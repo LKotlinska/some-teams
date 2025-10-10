@@ -16,10 +16,10 @@ require(__DIR__ . "/resources/data.php");
             // Capitalizes words
             $cleanLeagueName = ucwords(strtolower(trim($cleanLeagueName)));
         ?>
-            <div class="card">
-                <h3>
+            <div class="teams-card">
+                <h4>
                     <?php echo $teamName; ?>
-                </h3>
+                </h4>
                 <img class="team-logo" src="<?php echo $dataName['logo']; ?>" />
                 <table>
                     <tbody>

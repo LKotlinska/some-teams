@@ -9,21 +9,31 @@
 body {
   margin: 0;
   background-color: var(--primary-color);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-.card {
+.teams-card,
+.about-card{
   display:flex; 
   flex-direction: column;
-  gap: 1em;
-  align-items: center;
+  gap: 2em;  
   background-color: var(--secondary-color);
-  border-top: none;
   margin: 10px;
   padding: 20px;
-  width: 380px;
   border-radius: 30px;
+}
+.teams-card{
+  width: 380px;
+  align-items: center;
+}
+.about-card{
+  width: 70%;
+}
+.about-card p{
+  margin: 0;
+  padding: 0 1em;
+  font-size: 1.5em;
 }
 .nav {
   padding: 5px;
@@ -47,7 +57,8 @@ a:hover{
 }
 h1,
 h2, 
-h3{
+h3,
+h4{
   font-family: "Bebas Neue", sans-serif;
   font-weight:900;
   font-style: normal;
@@ -64,7 +75,11 @@ h1{
 h2{
   font-size: 5em;
 }
-h3 {
+h3{
+  font-size: 3em;
+  margin: 0 auto;
+}
+h4 {
   margin: 0 auto;
   font-size: 2em;
   text-transform: uppercase;
