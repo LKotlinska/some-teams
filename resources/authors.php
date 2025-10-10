@@ -10,19 +10,19 @@ $authors = [
         'hobby' => [
             'gaming',
             'series',
-        ],
-        'interest' => [
             'frontend',
             'programming',
             'asian culture',
             'food',
+            'pet',
+            'art-craft',
         ],
         'programmingLanguage' => [
             'php',
             'javascript',
             'html/css',
             'c#',
-            'sql'
+            'sql',
         ]
     ]
 ];
