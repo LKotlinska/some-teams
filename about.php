@@ -14,12 +14,52 @@ require(__DIR__ . "/resources/authors.php");
             <h3>
                 About me
             </h3>
-            <p>Hello!<br>
-                I’m Laura,an aspiring web developer passionate about building clean,
-                responsive, and user-friendly websites. My focus is on creating accessible
+            <p>
+                Hello, I’m Laura!
+            </p>
+            <p>    
+                I'm an aspiring web developer passionate about building clean,
+                responsive, and creative websites. My focus is on creating responsive
                 and reliable solutions with attention to both design and functionality.
                 I’m always eager to learn new technologies and improve my skills to deliver modern,
-                high-quality web experiences.</p>
+                high-quality web experiences.
+            </p>
+            <p>
+                Facts about me:
+            </p>
+            <ul>
+                <?php
+                foreach ($authors as $author) {
+                    if ($author['hasPet'] == true) :
+                ?>
+                        <li>
+                            I have a <?php echo $author['petType']; ?>
+                            called <?php echo $author['petName']; ?>
+                        </li>
+                    <?php
+                    else :
+                    ?>
+                        <li>
+                            I don't own any pets
+                        </li>
+                    <?php
+                    endif;
+                    if ($author['likesFootball'] == true) :
+                    ?>
+                        <li>
+                            I'm a fan of <?php echo $author['favoriteTeam']; ?>
+                        </li>
+                    <?php
+                    else :
+                    ?>
+                        <li>
+                            I'm not a fan of any sports
+                        </li>
+                <?php
+                    endif;
+                }
+                ?>
+            </ul>
         </div>
         <div class="about-card">
             <h3>

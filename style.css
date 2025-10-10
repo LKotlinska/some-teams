@@ -19,21 +19,30 @@ body {
   display:flex; 
   flex-direction: column;  
   background-color: var(--secondary-color);
-  margin: 10px;
-  padding: 20px;
-  border-radius: 30px;
+  padding: 2em;
+  border-radius: 3em;
 }
 .teams-card{
   width: 380px;
   align-items: center;
+  padding: 1.5em;
 }
 .about-card{
   width: 70%;
 }
+.about-card p,
+.about-card ul{
+  font-size: 1.5em;
+  text-align: justify;
+}
 .about-card p{
   margin: 0;
-  padding: 0 1em;
-  font-size: 1.5em;
+  padding: 0.5em 1em;
+
+}
+.about-card ul{
+  padding-left: 2em;
+  margin: 0;
 }
 .nav {
   padding: 5px;
@@ -81,6 +90,7 @@ h3{
 }
 h4 {
   margin: 0 auto;
+  margin-bottom: 0.5em;
   font-size: 2em;
   text-transform: uppercase;
 }
@@ -91,7 +101,7 @@ span{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1em;
+  gap: 1.5em;
 }
 .icon-container{
   display: flex;
@@ -118,11 +128,11 @@ span{
 .hover-text{
   display: none;
   position: absolute;
-  padding: 1em;
+  padding: 0.5em;
   background-color: var(--accent-color);
   top: -4em;
   left: -50%;
-  border-radius: 2em;
+  border-radius: 1.5em;
 }
 .hover-text p{
   width: max-content;
@@ -135,6 +145,7 @@ span{
 
 table{
   width: 90%;
+  margin-bottom: 1.5em;
 }
 th,
 td {
