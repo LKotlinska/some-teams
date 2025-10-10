@@ -18,11 +18,12 @@ $authors = [
             'arts & crafts' => '/images/icon_art.svg',
         ],
         'programmingLanguage' => [
-            'php',
-            'javascript',
-            'html/css',
-            'c#',
-            'sql',
+            'php' => '/images/icon_php.svg',
+            'javascript' => '/images/icon_javascript.svg',
+            'html'=> '/images/icon_html.svg',
+            'css' => '/images/icon_css.svg',
+            'c#'=> '/images/icon_csharp.svg',
+            'sql'=> '/images/icon_sql',
         ]
     ]
 ];
