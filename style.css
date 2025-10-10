@@ -2,6 +2,7 @@
   --primary-color: #221d23;
   --secondary-color: #FBFBFF;
   --accent-color: #01BAEF;
+  --primary-color-light: #675d69;
 }
 * {
   box-sizing: border-box;
@@ -16,8 +17,7 @@ body {
 .teams-card,
 .about-card{
   display:flex; 
-  flex-direction: column;
-  gap: 2em;  
+  flex-direction: column;  
   background-color: var(--secondary-color);
   margin: 10px;
   padding: 20px;
@@ -91,11 +91,28 @@ span{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1em;
+}
+.icon-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .team-logo {
   height: 150px;
   display: block;
   margin: 0 auto 15px auto;
+}
+
+.hobby-icon{
+  padding: 0.5em;
+  margin: 0.5em 2em;
+  background-color: var(--primary-color-light); 
+  width: 5em;
+}
+.hobby-icon img{
+  display: block;
+  margin: 0 auto;
 }
 
 table{
