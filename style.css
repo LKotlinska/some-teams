@@ -130,11 +130,13 @@ span{
   position: absolute;
   padding: 0.5em;
   background-color: var(--accent-color);
+  /* top and left positions in relation to parent for hover effect*/
   top: -4em;
   left: -50%;
   border-radius: 1.5em;
 }
 .hover-text p{
+  /* max-content prevents wrapping due to parent's width */
   width: max-content;
   text-transform: uppercase;
   font-size: 1.2em
