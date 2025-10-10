@@ -6,7 +6,7 @@ require(__DIR__ . "/resources/data.php");
     <h1>
         Kick Off with Your Favorite <span>Teams</span>
     </h1>
-    <div class="main-container">
+    <div class="container">
         <?php
         foreach ($teams as $teamName => $dataName) {
             // Removes paranthesis
