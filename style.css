@@ -68,6 +68,8 @@ h1,
 h2, 
 h3,
 h4{
+  text-align: center;
+  width: 100%;
   font-family: "Bebas Neue", sans-serif;
   font-weight:900;
   font-style: normal;
@@ -75,7 +77,6 @@ h4{
 h1,
 h2{
   padding: 0 40px;
-  text-align: center;
   color: var(--secondary-color);
 }
 h1{
@@ -102,6 +103,7 @@ span{
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5em;
+  margin-bottom: 2em;
 }
 .icon-container{
   display: flex;
