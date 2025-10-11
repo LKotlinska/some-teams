@@ -20,19 +20,22 @@ PHP, HTML, CSS
 - Data about the author displayed on the about page comes from _'authors.php'_.
 - _'index.php'_ loops through the data and renders a list of teams inside cards. The information about each team is displayed in a table (name, league, ranking and city).
 - _'about.php'_ presents a personal "About me" section - who the author is, their skills as well as their hobbys and intrests. Information is also displayed in cards.
-- No HTML output though PHP 'echo'.
-- The project is built so that there are *no PHP notices, warnings or errors* when run in Mozilla Firefox, Google Chrome, Microsoft Edge. 
+- PHP 'echo' doesn't output any HTML tags.
+- The project is built so that there are warnings or errors when run in Mozilla Firefox, Google Chrome, Microsoft Edge. 
 
 ## Potential Future Improvements
 
 - Adding a team detail page.
 - Improving accessibility and mobile responsiveness.
+- Loading google icon svgs as a static font instead of downloading the icons.
+- Separating icons from authors.php.
 
 ## Lessons Learned
 
 - Do not use Wikipedia's table standards as a reference, as they are outdated and often incorrectly implemented on older pages.
 - Gained experience in keeping my code organized.
-
+- Even though the project is small, it gave me insight into how frontend design connects with backend logic and data.
+- I practised commiting small code changes/features to better track the progress, as well as practise commit messages. There's still a long way to go, I think.
 
 ## License
 
