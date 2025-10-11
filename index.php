@@ -9,9 +9,9 @@ require(__DIR__ . "/resources/data.php");
     <div class="container">
         <?php
         foreach ($teams as $teamName => $dataName) {
-            // Removes paranthesis
+            // Removes paranthesis from string
             $cleanLeagueName = preg_replace("/\s*\(.*?\)/", "", $dataName['league']);
-            // Removes slash
+            // Removes slash 
             $cleanLeagueName = str_replace("\\", "", $cleanLeagueName);
             // Capitalizes words
             $cleanLeagueName = ucwords(strtolower(trim($cleanLeagueName)));
@@ -23,11 +23,6 @@ require(__DIR__ . "/resources/data.php");
                 <img class="team-logo" src="<?php echo $dataName['logo']; ?>" />
                 <table>
                     <tbody>
-                        <tr colspan="2">
-                            <td colspan="2">
-
-                            </td>
-                        </tr>
                         <tr>
                             <th>
                                 League

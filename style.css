@@ -19,7 +19,6 @@ body {
   display:flex; 
   flex-direction: column;  
   background-color: var(--secondary-color);
-  padding: 2em;
   border-radius: 3em;
 }
 .teams-card{
@@ -29,6 +28,7 @@ body {
 }
 .about-card{
   width: 70%;
+  padding: 2em;
 }
 .about-card p,
 .about-card ul{
