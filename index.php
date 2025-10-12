@@ -1,6 +1,7 @@
 <?php
 require(__DIR__ . "/header.php");
 require(__DIR__ . "/resources/data.php");
+require(__DIR__ . "/functions.php");
 ?>
 <main>
     <h1>
@@ -9,12 +10,7 @@ require(__DIR__ . "/resources/data.php");
     <div class="container">
         <?php
         foreach ($teams as $teamName => $dataName) {
-            // Removes paranthesis from string
-            $cleanLeagueName = preg_replace("/\s*\(.*?\)/", "", $dataName['league']);
-            // Removes slash 
-            $cleanLeagueName = str_replace("\\", "", $cleanLeagueName);
-            // Capitalizes words
-            $cleanLeagueName = ucwords(strtolower(trim($cleanLeagueName)));
+            $cleanLeagueName = formatName($dataName['league']);
         ?>
             <div class="teams-card">
                 <h4>
