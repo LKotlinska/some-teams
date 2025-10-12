@@ -34,7 +34,6 @@ PHP, HTML, CSS
 
 - Do not use Wikipedia's table standards as a reference, as they are outdated and often incorrectly implemented on older pages.
 - Gained experience in keeping my code organized.
-- Even though the project is small, it gave me insight into how frontend design connects with backend logic and data.
 - I practised commiting small code changes/features to better track the progress, as well as practise commit messages. There's still a long way to go, I think.
 
 ## License
