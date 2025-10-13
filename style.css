@@ -161,3 +161,18 @@ th {
   text-align: left;
 }
 
+.more-card{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.more-card a{
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
