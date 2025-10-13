@@ -1,7 +1,7 @@
 <?php
 require(__DIR__ . "/header.php");
 require(__DIR__ . "/resources/data.php");
-require(__DIR__ . "/functions.php");
+require(__DIR__ . "/resources/functions.php");
 ?>
 <main>
     <h1>
