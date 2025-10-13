@@ -21,7 +21,8 @@
         <div class="header">
             <nav class="nav">
                 <a href="/index.php">Main</a>
-                <a href="/about.php">About</a>
+                <a href="/about-teams.php">About teams</a>
+                <a href="/about.php">About author</a>
             </nav>
         </div>
     </header>
