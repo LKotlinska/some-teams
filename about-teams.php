@@ -11,9 +11,10 @@ require(__DIR__ . "/resources/functions.php");
     <?php
     foreach ($teams as $teamName => $dataName) {
         $cleanLeagueName = formatName($dataName['league']);
+        $replacedString = replaceSpace($teamName);
     ?>
         <!-------- creates the id for the anchor on the index page -------->
-        <div id="<?php echo $teamName; ?>" class="about-card more-card">
+        <div id="<?php echo $replacedString; ?>" class="about-card more-card">
             <h4>
                 <?php echo $teamName; ?>
             </h4>
