@@ -12,3 +12,11 @@ function formatName($name){
 
     return $cleanName;
 }
+
+// replaces spaces with underscores
+function replaceSpace($name){
+    
+    $cleanName = preg_replace('/\s+/', '_', $name);
+
+    return $cleanName;
+}
