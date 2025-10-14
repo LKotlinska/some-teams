@@ -15,7 +15,6 @@ require(__DIR__ . "/resources/functions.php");
         ?>
             <div class="teams-card">
                 <h4>
-                    <?php echo $replacedString; ?>
                     <?php echo $teamName; ?>
                 </h4>
                 <img class="team-logo" src="<?php echo $dataName['logo']; ?>" />
