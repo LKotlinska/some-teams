@@ -127,6 +127,8 @@ span{
   display: block;
   margin: 0 auto;
 }
+/* disclaimer: this hover solution is ugly, as i took inspiration
+   from 'on hover' javascript effect and recreated it in css */
 .hover-text{
   display: none;
   position: absolute;
