@@ -159,14 +159,13 @@ td {
 }
 th {
   width: 30%;
-  padding-right: 15px;
+  padding-right: 1.5em;
   text-align: left;
 }
 
 .more-card{
   display: flex;
   flex-direction: column;
-  list-style-type: none;
 }
 .card-container{
   display: flex;
