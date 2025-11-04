@@ -20,9 +20,9 @@
     <header>
         <div class="header">
             <nav class="nav">
-                <a href="/index.php">Main</a>
-                <a href="/about-teams.php">About teams</a>
-                <a href="/about.php">About me</a>
+                <a href="index.php">Main</a>
+                <a href="about-teams.php">About teams</a>
+                <a href="about.php">About me</a>
             </nav>
         </div>
     </header>
